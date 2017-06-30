@@ -1,17 +1,17 @@
 import React from 'react';
-import TextInput from 'ps-react-train-tlr/TextInput';
+import TextInputStyledComponent from 'ps-react-train-tlr/TextInputStyledComponents';
 
 /** Required TextBox with error */
 export default class ExampleError extends React.Component {
   render() {
     return (
-      <TextInput
+      <TextInputStyledComponent
         htmlId="example-optional"
         label="First Name"
         name="firstname"
         onChange={() => {}}
         required
-        error="First name is required."
+        error="Give me a name, man!"
        />
     )
   }
